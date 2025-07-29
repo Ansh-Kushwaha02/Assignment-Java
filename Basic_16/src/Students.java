@@ -22,5 +22,11 @@ class Student {
 		this.skillset = skillset;
 	}
 	
-
+	public void display()
+	{
+		System.out.println(roll_no);
+		System.out.println(name);
+		System.out.println(percentage);
+		System.out.println(skillset);
+	}
 }
